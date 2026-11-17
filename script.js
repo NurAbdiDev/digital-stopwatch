@@ -3,7 +3,6 @@ const startbtn = document.querySelector(".start-btn");
 const pausebtn = document.querySelector(".pause-btn");
 const resetbtn = document.querySelector(".reset-btn");
 const status = document.querySelector(".status");
-
 let seconds = 0;
 let intervalID = null;
 startbtn.addEventListener("click", function () {
