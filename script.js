@@ -24,9 +24,11 @@ startbtn.addEventListener("click", function () {
 });
 pausebtn.addEventListener("click", function () {
   clearInterval(intervalID);
+  intervalID = null;
 });
 resetbtn.addEventListener("click", function () {
   clearInterval(intervalID);
+  intervalID = null;
   seconds = 0;
   timer.textContent = "00:00:00";
 });
